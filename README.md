@@ -16,6 +16,18 @@ It'll add a little alien to your extension bar.
 
 Once you setup a subreddit to watch and choose keywords, it'll search the subreddit for new posts with those keywords in the title or self text every 60 seconds.
 
+Please note that you can use any of the following styles of subreddit.
+
+`/r/webdev`
+
+`/r/webdev/new`
+
+`/r/webdev/rising`
+
+`/r/webdev/gilded`
+
+etc. etc. etc.
+
 When new posts show up, a badge will appear showing how many new posts there are. Just click the extension icon to automatically be redirected to the subreddit.
 
 #Credits
