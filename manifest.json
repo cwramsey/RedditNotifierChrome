@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Subreddit Notifier",
+  "description": "Notifies you of new posts with specific keywords in any subreddit you choose.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "img/reddit_black.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "https://reddit.com/"
+  ]
+}

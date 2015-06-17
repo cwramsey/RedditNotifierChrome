@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Subreddit Notifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+<body>
+
+<header>
+    <nav class="top-nav">
+        <div class="container">
+            <div class="nav-wrapper"><span class="page-title">Subreddit Notifier</span></div>
+        </div>
+    </nav>
+</header>
+
+<div class="app">
+    <p>
+        <label>Subreddit</label>
+        <input class="subreddit" type="text" placeholder="/r/all" />
+    </p>
+    <p>
+        <label>Keywords</label>
+        <textarea class="keywords materialize-textarea"></textarea>
+    </p>
+    <p>One keyword on each row, please.</p>
+</div>
+
+<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a href="#" class="btn-floating btn-large red waves-effect waves-light save">
+        <i class="large mdi-action-done"></i>
+    </a>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/materialize.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+
+</body>
+</html>

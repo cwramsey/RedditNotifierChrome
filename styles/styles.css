@@ -1,0 +1,25 @@
+body, html {
+    width: 300px;
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    padding: 25px;
+}
+
+.page-title {
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 25px;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+    color: #ccc;
+}
+
+.green-button {
+    background-color: green !important;
+}
