@@ -8,7 +8,7 @@ var interval = setInterval(function() {
                 .then(checkChildren);
         }
     });
-}, 5000);
+}, 60000);
 
 function parseJson(res) {
     return res.json();
