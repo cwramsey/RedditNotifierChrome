@@ -30,6 +30,13 @@ etc. etc. etc.
 
 When new posts show up, a badge will appear showing how many new posts there are. Just click the extension icon to automatically be redirected to the subreddit.
 
+#ToDo
+
+* Support multiple reddits
+* Dropdown select for new/hot/top/etc
+* Sounds
+* Change icon color with canvas
+
 #Credits
 
 Icons are courtesy of [Freepik](http://www.flaticon.com/free-icon/reddit-social-logo-character_49398).
