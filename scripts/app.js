@@ -1,6 +1,5 @@
 //check for new posts and open subreddit in a new tab
 chrome.browserAction.getBadgeText({}, function(res) {
-    console.log(res);
     if (res != '') {
         chrome.storage.sync.get('subreddit', function(res) {
             console.log(res);
